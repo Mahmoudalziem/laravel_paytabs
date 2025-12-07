@@ -3,7 +3,7 @@
 /*
  * This file is part of paytabs.
  *
- * (c) Walaa Elsaeed <w.elsaeed@paytabs.com>
+ * (c) Mahmoud Abd Alziemn <mbdalzym376@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -20,7 +20,7 @@ return [
      |
      */
 
-    'profile_id' => env('paytabs_profile_id', null),
+    'profile_id' => env('PAYTABS_PROFILE_ID', null),
 
     /*
    |--------------------------------------------------------------------------
@@ -31,7 +31,7 @@ return [
    |
    */
 
-    'server_key' => env('paytabs_server_key', null),
+    'server_key' => env('PAYTABS_SERVER_KEY', null),
 
     /*
    |--------------------------------------------------------------------------
@@ -43,7 +43,7 @@ return [
    |
    */
 
-    'currency' => env('paytabs_currency', null),
+    'currency' => env('PAYTABS_CURRENCY', 'USD'),
 
 
     /*
@@ -56,6 +56,6 @@ return [
    |
    */
 
-    'region' => env('paytabs_region', null),
+    'region' => env('PAYTABS_REGION', 'GLOBAL'),
 
 ];
