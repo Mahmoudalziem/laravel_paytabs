@@ -8,7 +8,7 @@
         "email": "mbalzym376@gmail.com"
     }],
     "homepage": "https://site.paytabs.com/en/",
-    "minimum-stability": "dev",
+    "license": "MIT",
     "keywords": [
         "Laravel",
         "Paytabs",
