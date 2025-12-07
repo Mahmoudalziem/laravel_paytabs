@@ -1,7 +1,7 @@
 {
     "name": "azima/laravel_paytabs",
     "version": "1.4.1",
-    "type": "composer-package",
+    "type": "library",
     "description": "Official laravel package to implement PayTabs integration with laravel apps",
     "authors": [{
         "name": "Mahmoud Abd Alziem",
